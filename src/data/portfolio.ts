@@ -93,17 +93,17 @@ export const projects: Project[] = [
   },
   {
     slug: "creator-platform",
-    title: "Creator Platform Concept",
+    title: "Growfluence AI",
     category: "Full Stack",
     year: "2026",
-    summary: "A product concept for creators, brands, publishing, and private messaging.",
-    description: "Explore how creator profiles, brand discovery, publishing, and messaging might fit into a single product. Replace this description with implementation details as the project develops.",
-    stack: ["Next.js", "TypeScript", "Product Design"],
-    status: "Concept",
-    featured: false,
+    summary: "A multi-user creator growth workspace for weekly content planning, AI-assisted creation, creator strategy and performance tracking.",
+    description: "Built as a creator-focused SaaS MVP with private accounts, personalized creator profiles, seven-day content plans, an AI content studio for hooks and captions, an editorial workflow, and creator-reported analytics. Supabase Auth and PostgreSQL Row Level Security keep each creator’s workspace private. AI generation is optional and requires an API key; social publishing and live platform analytics are not yet integrated.",
+    stack: ["Python", "Streamlit", "Supabase", "PostgreSQL", "OpenAI API"],
+    status: "MVP",
+    featured: true,
     accent: "orange",
-    outcome: "Explores product structure, user flows, and a cohesive visual system.",
-    github: "https://github.com/"
+    outcome: "Multi-user creator workspaces with personalized planning and growth tracking.",
+    github: "https://github.com/itshari09/growfluence-ai"
   }
 ];
 
