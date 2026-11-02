@@ -1,0 +1,130 @@
+export const portfolio = {
+  name: "Sri Hari",
+  initials: "SH",
+  role: "AI/ML Engineer · Software Developer · Creative Technologist",
+  headline: "I build intelligent software and digital experiences.",
+  intro:
+    "I’m a computer science student exploring AI, full-stack development, and creative technology. I turn real-world problems into thoughtful, useful digital products.",
+  location: "Hyderabad, India",
+  availability: "Open to internships and meaningful collaborations",
+  email: "hello@example.com",
+  resumePath: "/resume.pdf",
+  socials: [
+    { label: "GitHub", url: "https://github.com/", short: "GH" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/", short: "IN" },
+    { label: "Instagram", url: "https://www.instagram.com/", short: "IG" }
+  ]
+};
+
+export const skills = [
+  { name: "Python", group: "Languages" },
+  { name: "JavaScript", group: "Languages" },
+  { name: "TypeScript", group: "Languages" },
+  { name: "HTML & CSS", group: "Frontend" },
+  { name: "React", group: "Frontend" },
+  { name: "Next.js", group: "Frontend" },
+  { name: "FastAPI", group: "Backend" },
+  { name: "Node.js", group: "Backend" },
+  { name: "PostgreSQL", group: "Data" },
+  { name: "MongoDB", group: "Data" },
+  { name: "scikit-learn", group: "AI / ML" },
+  { name: "RDFLib", group: "AI / ML" },
+  { name: "Git & GitHub", group: "Tools" },
+  { name: "Figma", group: "Creative" }
+];
+
+export type Project = {
+  slug: string;
+  title: string;
+  category: string;
+  year: string;
+  summary: string;
+  description: string;
+  stack: string[];
+  status: string;
+  featured: boolean;
+  accent: string;
+  outcome: string;
+  github?: string;
+  demo?: string;
+};
+
+export const projects: Project[] = [
+  {
+    slug: "software-xray",
+    title: "Software X-Ray",
+    category: "AI / ML",
+    year: "2026",
+    summary: "A concept for helping students understand the gaps between their current skills and target software roles.",
+    description: "Software X-Ray is a placement-focused concept that could map a learner’s skills against role requirements, surface gaps, and suggest a practical learning path. Replace this concept copy with the features you have actually implemented.",
+    stack: ["Python", "React", "Data Analysis"],
+    status: "Concept / in progress",
+    featured: true,
+    accent: "green",
+    outcome: "Designed around a clear student problem and actionable next steps.",
+    github: "https://github.com/"
+  },
+  {
+    slug: "vehicle-knowledge",
+    title: "Vehicle Maintenance Knowledge Base",
+    category: "AI / ML",
+    year: "2026",
+    summary: "A knowledge-representation project for organizing vehicle symptoms, components, and maintenance relationships.",
+    description: "This project explores structured knowledge using entities and relationships so maintenance information can be represented and queried. Add your ontology design, sample queries, and actual results here.",
+    stack: ["Python", "RDFLib", "Knowledge Graphs"],
+    status: "Prototype",
+    featured: true,
+    accent: "red",
+    outcome: "Demonstrates semantic modeling and structured reasoning.",
+    github: "https://github.com/"
+  },
+  {
+    slug: "lex-ai",
+    title: "Lex AI",
+    category: "Full Stack",
+    year: "2026",
+    summary: "A legal-information prototype exploring a clearer way to navigate complex documents and questions.",
+    description: "Lex AI is a prototype concept for making legal information easier to explore. Clearly distinguish general information from legal advice, and document any retrieval or AI features you actually build.",
+    stack: ["React", "API Design", "AI Integration"],
+    status: "Prototype",
+    featured: true,
+    accent: "purple",
+    outcome: "Focuses on approachable information architecture and usability.",
+    github: "https://github.com/"
+  },
+  {
+    slug: "creator-platform",
+    title: "Creator Platform Concept",
+    category: "Full Stack",
+    year: "2026",
+    summary: "A product concept for creators, brands, publishing, and private messaging.",
+    description: "Explore how creator profiles, brand discovery, publishing, and messaging might fit into a single product. Replace this description with implementation details as the project develops.",
+    stack: ["Next.js", "TypeScript", "Product Design"],
+    status: "Concept",
+    featured: false,
+    accent: "orange",
+    outcome: "Explores product structure, user flows, and a cohesive visual system.",
+    github: "https://github.com/"
+  }
+];
+
+export const experience = [
+  {
+    date: "2024 — Present",
+    title: "B.Tech, Computer Science (AI & ML)",
+    organization: "Vignan Institute of Technology and Science",
+    description: "Studying computer science with an interest in intelligent systems, software engineering, and applied AI."
+  },
+  {
+    date: "2021 — 2024",
+    title: "Diploma in Embedded Systems Engineering",
+    organization: "Government Polytechnic College, Nizamabad",
+    description: "Built a foundation in engineering and embedded systems."
+  },
+  {
+    date: "Ongoing",
+    title: "Projects & community initiatives",
+    organization: "Independent work",
+    description: "Developing software prototypes and contributing to student technology events. Add specific dates, responsibilities, and outcomes as appropriate."
+  }
+];

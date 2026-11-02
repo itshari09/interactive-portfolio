@@ -1,0 +1,1 @@
+Place your optimized images in public/images/. Replace public/resume.pdf with your resume PDF if you want the resume button to work. Do not upload private documents.
