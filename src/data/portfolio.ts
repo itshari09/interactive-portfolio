@@ -65,17 +65,17 @@ export const projects: Project[] = [
   },
   {
     slug: "vehicle-knowledge",
-    title: "Vehicle Maintenance Knowledge Base",
+    title: "Vehicle Maintenance AI (VAI)",
     category: "AI / ML",
     year: "2026",
-    summary: "A knowledge-representation project for organizing vehicle symptoms, components, and maintenance relationships.",
-    description: "This project explores structured knowledge using entities and relationships so maintenance information can be represented and queried. Add your ontology design, sample queries, and actual results here.",
-    stack: ["Python", "RDFLib", "Knowledge Graphs"],
+    summary: "An ontology-based vehicle maintenance assistant that reasons over vehicle data and maintenance rules to recommend actions and schedule servicing.",
+    description: "VAI stores vehicle data and maintenance rules in an OWL/RDF ontology, uses a reasoning engine to infer required maintenance actions, and generates a service calendar based on vehicle usage. The interface is designed for real-time maintenance suggestions through a console or GUI.",
+    stack: ["Python 3.12", "OWL / RDF", "Knowledge Representation & Reasoning"],
     status: "Prototype",
     featured: true,
     accent: "red",
-    outcome: "Demonstrates semantic modeling and structured reasoning.",
-    github: "https://github.com/"
+    outcome: "Connects semantic knowledge representation with rule-based maintenance recommendations.",
+    github: "https://github.com/itshari09/VAI-Vechile-maintanance-ai-"
   },
   {
     slug: "lex-ai",
