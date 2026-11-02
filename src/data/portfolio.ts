@@ -7,12 +7,11 @@ export const portfolio = {
     "I’m a computer science student exploring AI, full-stack development, and creative technology. I turn real-world problems into thoughtful, useful digital products.",
   location: "Hyderabad, India",
   availability: "Open to internships and meaningful collaborations",
-  email: "hello@example.com",
+  email: "itshari0918@gmail.com",
   resumePath: "/resume.pdf",
   socials: [
-    { label: "GitHub", url: "https://github.com/", short: "GH" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/", short: "IN" },
-    { label: "Instagram", url: "https://www.instagram.com/", short: "IG" }
+    { label: "GitHub", url: "https://github.com/itshari09", short: "GH" },
+    { label: "LinkedIn", url: "https://in.linkedin.com/in/srihari-1807aiml-es", short: "IN" },
   ]
 };
 
